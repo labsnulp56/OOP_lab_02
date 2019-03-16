@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio Folders and Files
+.vs
+Debug
+OOP_lab_02.VC.VC.opendb
+OOP_lab_02.VC.db
+
