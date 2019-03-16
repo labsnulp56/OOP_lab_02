@@ -1,1 +1,1 @@
-# OOP_lab_02
+# OOP Lab #01: dynamic memory
