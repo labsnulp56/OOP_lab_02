@@ -14,9 +14,9 @@ public:
 	Cone()
 	{
 		radius = new double(0);
-		height = new double(0); /*конструктор значень за замовчуванням*/
+		height = new double(0);
 	}
-	Cone(double radius, double height) /*конструктор для ініціалізації користувацькими значеннями*/
+	Cone(double radius, double height)
 	{
 		this->radius = new double(radius);
 		this->height = new double(height);
@@ -53,7 +53,7 @@ double Cone::Volume(Cone &obj)
 }
 double Cone::Area(Cone &obj)
 {
-	return M_PI*(*radius)* ((*(radius)) + (*height)); //height в значенні l за формулою конуса щоб не додавати зайву змінну
+	return M_PI*(*radius)* ((*(radius)) + (*height));
 }
 
 int main()
@@ -76,7 +76,7 @@ int main()
 	Cone obj3(obj1);
 	cout << "Radius = " << obj1.GetX() << ' ' << "Height = " << obj1.GetY() << endl;
 	cout << "Volume of con is " << obj1.Volume(*obj2) << endl;
-	cout << "Radius = " << obj1.GetX() << ' ' << "Сreating a cone = " << obj1.GetY() << endl;
+	cout << "Radius = " << obj1.GetX() << ' ' << "Г‘reating a cone = " << obj1.GetY() << endl;
 	cout << "Area of con is " << obj1.Area(*obj2) << endl;
 	system("pause");
 	return 0;
